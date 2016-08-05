@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name = "Apple-Boost"
   spec.summary = "Boost C++ Libraries"
-  spec.homepage = 'https://github.com/markspanbroek/Apple-Boost-BuildScript'
+  spec.homepage = 'https://github.com/cpp-ethereum-ios/Apple-Boost-BuildScript'
   spec.authors = "Boost Authors"
   spec.license = "Boost License"
 
@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.version = "#{boost_version}.0"
 
   spec.source = {
-    git: 'https://github.com/markspanbroek/Apple-Boost-BuildScript.git',
+    git: 'https://github.com/cpp-ethereum-ios/Apple-Boost-BuildScript.git',
     tag: "v#{spec.version}"
   }
 

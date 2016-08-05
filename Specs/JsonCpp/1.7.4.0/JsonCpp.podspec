@@ -1,14 +1,14 @@
 Pod::Spec.new do |spec|
   spec.name = "JsonCpp"
   spec.summary = "A C++ library for interacting with JSON"
-  spec.homepage = 'https://github.com/markspanbroek/jsoncpp'
+  spec.homepage = 'https://github.com/cpp-ethereum-ios/jsoncpp'
   spec.authors = "JsonCpp Authors"
   spec.license = { type: "MIT", file: "LICENSE" }
 
   spec.version = "1.7.4.0"
 
   spec.source = {
-    git: 'https://github.com/markspanbroek/jsoncpp.git',
+    git: 'https://github.com/cpp-ethereum-ios/jsoncpp.git',
     tag: "#{spec.version}"
   }
 
